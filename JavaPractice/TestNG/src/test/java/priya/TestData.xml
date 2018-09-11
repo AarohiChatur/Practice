@@ -1,0 +1,11 @@
+<suite name="Suite">
+	<test name="ToolsQA">
+		<parameter name="sUser" value="admin" />
+		<parameter name="sPassword" value="admin123" />
+		<parameter name="sUser" value="admin" />
+		<parameter name="sPassword" value="" />
+		<classes>
+			<class name="automationFramework.TestingParameters" />
+		</classes>
+	</test>
+</suite>
